@@ -1,0 +1,205 @@
+@font-face {
+  font-family: "BYekan";
+  src: url("./fonts/BYekan.eot") format("eot"),
+    url("./fonts/BYekan.ttf") format("ttf"),
+    url("./fonts/BYekan.woff") format("woff");
+}
+
+* {
+  text-align: right;
+  direction: rtl;
+  font-family: BYekan;
+}
+
+p,
+h4,
+a {
+  font-family: BYekan !important;
+}
+
+body {
+  background: #f5f5f5;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+body .div-img {
+  text-align: center;
+}
+
+.container {
+  width: 390px;
+
+  border: 1px solid #ccc;
+  margin: 10px auto;
+  background: #fff;
+}
+
+.container .header h3 {
+  padding: 0 20px;
+}
+
+.container .header {
+  border-bottom: 1px solid #ccc;
+}
+
+.container .body {
+  position: relative;
+  padding: 0 20px;
+  margin: 10px 0;
+}
+
+.container .body label {
+  display: block;
+  margin: 10px 0;
+  font-size: 16px;
+  color: rgb(207, 190, 190);
+}
+
+.container .body input {
+  width: 310px;
+  height: 41px;
+  font-size: 14px;
+  padding-right: 35px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.container .body .user-icon {
+  position: absolute;
+  right: 30px;
+  top: 52px;
+  color: #ddd;
+  font-size: 16px;
+}
+.container .body .lock-icon {
+  position: absolute;
+  right: 30px;
+  top: 152px;
+  color: #ddd;
+  font-size: 16px;
+}
+
+.container .body .p-psw {
+  float: left;
+  color: #1ca2bd;
+  border-bottom: 1px dashed #1ca2bd;
+  width: 195px;
+  line-height: 19px;
+  margin-left: 6px;
+}
+.container .body .btn-submit {
+  width: 345px;
+  height: 41px;
+  background: #1ca2bd;
+  border: 1px solid #1ca2bd;
+  border-radius: 5px;
+  margin: 10px 0;
+  cursor: pointer;
+  transition: background-color 0.5s ease-in;
+}
+.container .body .btn-submit:hover {
+  background: #1fb3d1;
+}
+
+.btn-submit .p-btn {
+  color: #fff;
+  font-size: 16px;
+  line-height: 0;
+  padding: 0 15px;
+  text-align: center;
+  z-index: 999;
+}
+.btn-submit .icon-pos {
+  position: relative;
+  top: -32px;
+  width: 50px;
+  height: 100%;
+  background: #1fb3d1;
+  border-radius: 10px 0 0 10px;
+}
+
+.sign-icon {
+  color: #fff;
+  font-size: 16px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.container .body input.check {
+  width: 17px;
+  height: 17px;
+  vertical-align: middle;
+  z-index: 2;
+  position: relative;
+  opacity: 0;
+}
+
+.container .body label.lablCheck {
+  display: inline-block;
+  font-size: 14px;
+}
+.footer {
+  background: #d7e6bb;
+  height: 70px;
+  border-top: 1px solid #b7e463;
+  border-right: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  width: 390px;
+  position: relative;
+  left: 1px;
+}
+
+.footer p {
+  text-align: center;
+  font-size: 16px;
+  line-height: 23px;
+  color: rgb(80, 79, 79);
+}
+
+.footer span {
+  color: #1ca2bd;
+  border-bottom: 1px dashed #1ca2bd;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+footer {
+  border-top: 1px solid #ccc;
+}
+
+footer ul li {
+  display: inline-block;
+  padding: 0 17px;
+  color: #7f7f7f;
+}
+footer ul {
+  text-align: center;
+  padding: 0;
+}
+footer p {
+  text-align: center;
+  color: #7f7f7f;
+  font-size: 13px;
+}
+
+.checkbox-Style {
+  width: 17px;
+  height: 17px;
+  display: inline-block;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  vertical-align: middle;
+  position: relative;
+  right: 24px;
+  margin-right: -25px;
+}
+.checked {
+  background: url("../images/bluecheckc.png") no-repeat -6px -7px;
+  border: 1px solid #1c5cbd;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title></title>
+        <link href="../common/cssRegister.css" rel="stylesheet" type="text/css">
+        <link
+        href="../common/Font-Awesome-master/css/all.min.css"
+        rel="stylesheet"
+      />
+      <script src="../common/js/jquery-3.0.0.min.js"></script>
+    </head>
+    <body>
+<div class="div-img"><img src="../images/logo.png"></div>
+<div class="container">
+<div class="header"><h3>ورود به دیجی کالا</h3></div>
+<div class="body">
+    <label>ایمیل یا شماره موبایل</label>
+    <input placeholder="ایمیل یا شماره موبایل خود را وارد کنید">
+    <span class="fa fa-user user-icon"></span>
+    <a><p class="p-psw">رمز عبور خود را فراموش کرده ام</p></a>
+ 
+    <label>رمز عبور</label>
+    <input placeholder="رمز عبور خود را وارد کنید">
+    <span class="fa fa-lock  lock-icon"></span>
+    <div class="btn-submit">
+        <p class="p-btn">ورود به دیجی کالا</p>
+        <div class="icon-pos">
+            <span class=" fas fa-sign-in-alt sign-icon"></span>
+        </div>
+    </div>
+    <span class="checkbox-Style checked"></span>
+    <input type="checkbox" class="check">
+    <label class="lablCheck">مرا به خاطر داشته باش</label>
+</div>
+<div class="footer">
+    <p>کاربر جدید هستید؟<span>ثبت نام کنید</span></p>
+</div>
+</div>
+<footer>
+   
+    <ul>
+       <li><a>درباره دیجی‌کالا</a></li>
+       <li><a>فرصت‌های شغلی</a></li>
+       <li><a>تماس با ما</a></li>
+       <li><a>همکاری با سازمان‌ها</a></li>
+    </ul>
+    <p>استفاده از مطالب فروشگاه اینترنتی دیجی‌کالا فقط برای مقاصد غیرتجاری و با ذکر منبع بلامانع است. کلیه حقوق این سایت متعلق به شرکت نوآوران فن آوازه (فروشگاه آنلاین دیجی‌کالا) می‌باشد.</p>
+    <p >Copyright © 2006 - 2019 Digikala.com</p>
+</footer>
+
+<script>
+$(".check").click(function(){
+    
+    var checkStyle=$(this).prev(".checkbox-Style")
+
+    if(checkStyle.hasClass("checked")){
+        checkStyle.removeClass("checked")
+    }else{
+        checkStyle.addClass("checked")
+    }
+})
+
+</script>
+    </body>
+</html>

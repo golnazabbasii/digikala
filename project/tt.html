@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+    <meta charset="UTF-8" />
+    <title>index</title>
+    <script src="../common/js/jquery-3.0.0.min.js"></script>
+    <script src="../common/js/jsc3d.js"></script>
+    <script src="../common/js/jsc3d.touch.js"></script>
+    <script src="../common/js/jsc3d.webgl.js"></script>
+    <style>
+    .test{
+        background: red;
+        width: 200px;
+        height: 200px;
+    }
+    </style>
+    </head>
+    <body>
+   
+          
+                <canvas id="cv" width="420" height="320"></canvas>
+      
+           
+ 
+
+        <script>
+      
+var cv=document.getElementById("cv");
+var viewer=new JSC3D.Viewer(cv,{
+  SceneUrl:'bmw/bmw.obj',
+  RenderMode:'texturesmooth'
+});
+
+viewer.init();
+viewer.update();
+        </script>
+    </body>
+    </html>
+  
